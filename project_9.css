@@ -1,0 +1,137 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+   --first-font: "Playfair Display", serif;
+   --second-font: "Clicker Script" , cursive;
+   --first-color: #f9c06a;
+   --second-color: #603809;
+   --third-color: #1e1e1e;
+   --fourth-color: #ffeed8;
+   --fifth-color: #fff9f1; 
+   --sixth-color: #707070;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container {
+    width: 1024px;
+}
+
+header {
+    background-image:  url('./Images/new_header_coffee.png');
+    background-repeat: no-repeat;
+    height: 85vh;
+    color: var(--fifth-color);
+    background-size: cover;
+    /* margin-bottom: 0; */
+    /* background-blend-mode: soft-light; */
+}
+
+.nav-item {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-text {
+    text-decoration: none;
+    color: var(--fifth-color);
+}
+
+
+.nav-item-one {
+    font-family: var(--second-font);
+    font-size: 1.5rem;
+}
+
+.nav-item-two {
+    font-family: var(--first-font);
+}
+
+.mini-nav-item-two {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 18.75rem;
+    height: 50px;
+    /* background: red; */
+}
+
+.nav-item-three {
+    display: flex;
+    width: 10rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item-two,
+.nav-item-three {
+    font-size: 0.85rem;
+}
+
+.mini-paragraph-three {
+    text-decoration: underline;
+}
+
+.nav-text-three {
+    text-decoration: none;
+    color: var(--third-color);
+    background: var(--first-color);
+    padding: 10px 25px;
+    border-radius: 50px;
+}
+
+.main-header-text {
+    width: 400px;
+    padding: 2rem;
+    /* background: green; */
+    text-align: left;
+    font-family: var(--first-font);
+    font-size: 0.80rem;
+    line-height: 1.5;
+    margin-left: 40px;
+}
+
+/* .main-header-text p {
+    margin: 0;
+} */
+
+
+.mini-text-one {
+    display: block;
+    font-family: var(--second-font);
+    font-size: 8rem;
+    margin: 0;
+}
+
+.third-main-paragraph {
+    margin-top: 30px;
+}
+
+.mini-third-main-text {
+    color: var(--third-color);
+    font-weight: 500;
+    text-decoration: none;
+    background: var(--first-color);
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-weight: 900;
+}
+
+main {
+    background: red;
+    margin: 0;
+}
+
+
+
+
+
