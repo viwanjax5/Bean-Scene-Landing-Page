@@ -128,7 +128,7 @@ header {
 
 main {
     display: grid;
-    background: red;
+    /* background: red; */
     margin: 0;
 }
 
