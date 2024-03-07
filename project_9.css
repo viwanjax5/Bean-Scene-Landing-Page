@@ -30,9 +30,6 @@ header {
     background-repeat: no-repeat;
     color: var(--fifth-color);
     background-size: cover;
-    height: 100vh;
-    /* margin-bottom: 0; */
-    /* background-blend-mode: soft-light; */
 }
 
 .nav-item {
@@ -158,6 +155,7 @@ main {
 
 .second-section-text {
     color: var(--sixth-color);
+    line-height: 1.5;
 }
 
 .first-mini-btn {
@@ -167,6 +165,128 @@ main {
     display: inline-block;
     background: var(--first-color);
     border-radius: 50px;
+    font-weight: bold;
+}
+
+.third-heading {
+    color: var(--second-color);
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.mini-third-container-text {
+    font-size: 0.65rem;
+    text-align: center;
+    margin-top: 0;
 }
 
 
+
+.third-container img {
+     width: 100%;
+}
+
+
+.mini-third-container {
+    /* display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px; */
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.mini-first-rec-text,
+.mini-second-rec-text,
+.mini-third-rec-text,
+.mini-fourth-rec-text {
+    display: block;
+    color: var(--second-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.mini-first-rectangle,
+.mini-second-rectangle,
+.mini-third-rectangle,
+.mini-fourth-rectangle  {
+    background: var(--fourth-color);
+}
+
+.first-rectangle,
+.second-rectangle,
+.third-rectangle,
+.fourth-rectangle {
+    width: 180px;
+}
+
+.first-rectangle > p:first-child,
+.second-rectangle > p:first-child,
+.third-rectangle > p:first-child,
+.fourth-rectangle > p:first-child {
+    margin: 0;
+    display: grid;
+}
+
+
+
+.mini-first-rectangle,
+.mini-second-rectangle,
+.mini-third-rectangle,
+.mini-fourth-rectangle {
+    font-size: 0.85rem;
+    padding: 0.7rem;
+}
+
+
+.mini-first-rectangle > p:first-child,
+.mini-second-rectangle > p:first-child,
+.mini-third-rectangle > p:first-child,
+.mini-fourth-rectangle > p:first-child {
+    margin: 0;
+}
+
+.text-one {
+    color: var(--second-color);
+    font-weight: bold;
+}
+.text-one,
+.text-two {
+    text-align: center;
+}
+
+.mini-first-rec-btn,
+.mini-second-rec-btn,
+.mini-third-rec-btn,
+.mini-fourth-rec-btn {
+    text-decoration: none;
+    color: var(--third-color);
+    font-weight: bold;
+    padding: 10px 20px;
+    background: var(--first-color);
+    border-radius: 50px;
+    font-size: 0.65rem;
+    position: relative;
+    left: 30px;
+    top: 30px;
+}
+
+.fourth-container {
+    margin-top: 50px;
+}
+
+.fourth-heading {
+    text-align: center;
+    font-size: 1.8rem;
+    color: var(--second-color);
+    margin-bottom: 10px;
+}
+
+.mini-fourth-text {
+    font-size: 0.65rem;
+    text-align: center;
+    margin-top: 0;
+    color: var(--sixth-color);
+}
