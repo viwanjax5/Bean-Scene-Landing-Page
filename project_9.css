@@ -179,8 +179,8 @@ main {
     font-size: 0.65rem;
     text-align: center;
     margin-top: 0;
+    color: var(--sixth-color);
 }
-
 
 
 .third-container img {
