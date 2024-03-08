@@ -416,6 +416,10 @@ main {
 
 .seventh-container {
     margin-top: 30px;
+    /* background-image: url(./Images/coffee_blast.png), url('./Images/coffee_blast\ \(2\).png');
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    /* background-position: right top -60px, top -20px left ; */ */
 }
 
 .mini-seventh-heading {
@@ -439,25 +443,40 @@ main {
     padding: 2.5rem;
     background-image: url('./Images/“new_apostrophe.png');
     background-repeat: no-repeat;
-    background-size: 30px;
-    background-position: left 20px ;
+    background-size: 40px;
+    background-position: top 20px left 20px;
+    height: 300px;
 }
 
 .mini-eigth-text-one {
     font-size: 0.60rem;
     line-height: 1.8;
-    /* margin: 0 auto; */
+    margin-top: 30px;
+}
+
+.mini-eigth-image-one {
+    width: 50px;
+    position: relative;
+    right: 220px;
+    bottom: 50px;
+}
+
+.mini-eigth-image-two {
+    width: 50px;
+    position: relative;
+    left: 220px;
+    bottom: 50px;
 }
 
 .mini-eigth-text-two {
     font-size: 1rem;
     color: var(--second-color);
     font-weight: bold;
+    position: relative;
+    bottom: 50px;
 }
 
-/* .mini-eigth-text-three {
-    height:0;
-} */
+
 
 .mini-text {
     display: block;
@@ -468,7 +487,7 @@ main {
 .mini-eigth-image {
     width: 80px;
     position: relative;
-    top: 90px;
+    bottom: 20px;
 }
 
 
@@ -476,7 +495,51 @@ main {
 .ninth-container {
     background-image: url('./Images/Group\ 46.png');
     background-repeat: no-repeat;
-    /* min-height: 550vh; */
+    /* min-height: 50vh; */
     background-size: cover;
     margin-top: 60px;
+    padding: 30px;
+}
+
+.mini-ninth-heading {
+    text-align: center;
+    font-family: var(--first-font);
+    color: var(--fifth-color);
+    font-size: 1.6rem;
+    letter-spacing: 1.2px;
+}
+
+.mini-ninth-text-one {
+    text-align: center;
+    font-size: 0.75rem;
+    color: var(--fifth-color);
+    font-family: var(--first-font);
+    margin-top: 0;
+}
+
+.first-sub-mini-container {
+    display: flex;
+    justify-content: center;
+}
+
+
+.first-sub-mini-container input {
+    font-family: var(--first-font);
+    font-size: 0.70rem;
+    padding: 5px 25px;
+    margin: 0;
+}
+
+.btn-submit {
+    font-family: var(--first-font);
+    font-size: 0.70rem;
+    margin: 0;
+    /* padding: 5px 10px; */
+    background: var(--first-color);
+    font-weight: bold;
+    border: none;
+}
+
+.tenth-container {
+    background-image: url('./Images/fotter_image.svg');
 }
