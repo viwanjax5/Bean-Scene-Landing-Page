@@ -419,7 +419,7 @@ main {
     /* background-image: url(./Images/coffee_blast.png), url('./Images/coffee_blast\ \(2\).png');
     background-repeat: no-repeat;
     /* background-size: cover; */
-    /* background-position: right top -60px, top -20px left ; */ */
+    /* background-position: right top -60px, top -20px left ; */ 
 }
 
 .mini-seventh-heading {
@@ -541,5 +541,43 @@ main {
 }
 
 .tenth-container {
-    background-image: url('./Images/fotter_image.svg');
+    background-image: url('./Images/bean_footer.png');
+    background-image: linear-gradient(top, #7a5901,50%, bottom, #7a5901 , 0%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px;
+}
+
+.first-tenth-container-item {
+    width: 350px;
+}
+
+.first-mini-tenth-container {
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+}
+
+.mini-tenth-heading {
+   font-family: var(--second-font);
+}
+
+.mini-tenth-text-one {
+    font-family: var(--first-font);
+    font-size: 0.80rem;
+}
+
+.second-tenth-container-item,
+.third-tenth-container-item,
+.fourth-tenth-container-item p {
+    font-size: 0.80rem;
+}
+
+.second-tenth-container-item,
+.third-tenth-container-item,
+.fourth-tenth-container-item h3 {
+    font-family: var(--first-font);
 }
