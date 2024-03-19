@@ -139,6 +139,7 @@ main {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .first-item {
@@ -207,6 +208,7 @@ main {
 .mini-third-container {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 40px;
     margin-top: 30px;
 }
@@ -307,6 +309,7 @@ main {
 .fifth-container {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 40px;
     margin-top: 30px;
 }
@@ -539,7 +542,7 @@ main {
 }
 
 .tenth-container {
-    background-image: url('./Images/bean_footer.png'), url(./Images/pngwing\ 1.png), url(./Images/pngwing\ 2.png);
+    background-image: url('./Images/bean_footer.png');
     background-color: #7a4900;
     background-blend-mode: multiply;
     background-image: linear-gradient( top , 50%);
@@ -550,6 +553,29 @@ main {
     justify-content: space-evenly;
     align-items: center;
     padding: 50px;
+    position: relative;
+}
+
+.tenth-container::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -50%;
+    left: 0%;
+    background-image: url(./Images/pngwing\ 1.png);
+    width: 260px;
+    height: 360px;
+}
+
+.tenth-container::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -50%;
+    right: 0%;
+    background-image: url(./Images/pngwing\ 2.png);
+    width: 260px;
+    height: 360px;
 }
 
 .first-tenth-container-item {
